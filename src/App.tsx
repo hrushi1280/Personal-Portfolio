@@ -102,7 +102,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <img
-              src="photo/IMG_2722 copy.svg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiMbN54oYFosGjyDoBNnCMEZ8gtqZy3n3AwI5PW91ZNlyAQl6-SH5xUcM5TS6Hv7WjQxKThV73Pp4ebaeLHI_6tHwcaBBqifiHU_MshZ7zy98yxhFhPUY5gp7foDUwoVj84h1syJtnqfj2e58uNifFqRr1N39ECTuG6mGDvAT5aRpPE0oiPUEiyLEuCSgX/s4875/IMG_2722.jpeg"
               alt="Profile"
               className="w-32 h-32 rounded-full mx-auto mb-8 object-cover"
             />
@@ -152,7 +152,7 @@ function App() {
                 Skills
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <SkillCard title="Web Development" skills={['HTML', 'CSS', 'JavaScript','Flask']} darkMode={darkMode} />
+                <SkillCard title="Frontend" skills={['HTML', 'CSS', 'JavaScript','Flask']} darkMode={darkMode} />
                 <SkillCard title="Backend" skills={['Node.js', 'Python', 'PostgreSQL']} darkMode={darkMode} />
                 <SkillCard title="Artificial Intelligence & Machine Learning" skills={['Python', 'OpenCV', 'AI-powered Web Applications']} darkMode={darkMode} />
                 <SkillCard title="Embedded Systems & Electronics" skills={['Microcontrollers', 'Sensors & Circuit Design', 'IoT-based Applications']} darkMode={darkMode} />
@@ -172,29 +172,43 @@ function App() {
             <ProjectCard
               title="AI-Powered Web Application"
               description="A Flask-powered AI web app that leverages YOLOv8 and OpenCV for real-time detection of Lumpy Skin Disease in cattle."
-              image="/photo/cattle  copy.svg"
+              image="https://images.unsplash.com/photo-1593023333594-487b2f7dd415?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               link="https://www.linkedin.com/posts/hrushikeshpandarkar_lsd-cattle-detection-website-activity-7238569228750979072-2noc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYoKpEBShLBmguBS2SL-IAIaD-2SZTiHao"
               darkMode={darkMode}
             />
             <ProjectCard
               title="AI-Enhanced Traffic Management System"
               description="AI-powered traffic management system using YOLOv8, Python, and OpenCV for real-time vehicle detection and congestion optimization."
-              image="/photo/traffic_light_006 copy.svg"
+              image="https://img.freepik.com/free-vector/colored-isolated-city-isometric-composition-with-road-crosswalk-city-center-vector-illustration_1284-30528.jpg?t=st=1741014580~exp=1741018180~hmac=b09109cddeca921c40b0a61c0b1af670eb2861e8f15f8f6746686fbd79c6ba89&w=1480"
               link="https://github.com/hrushi1280/PBLM_project"
               darkMode={darkMode}
             />
             <ProjectCard
               title="Blood Pressure Monitoring System"
               description="An Arduino-based healthcare device using the BMP280 sensor and oscillometric method for accurate blood pressure measurement. Features automated cuff inflation, real-time LCD display, and cost-effective design"
-              image="/photo/blood pressure copy.svg"
+              image="https://media.licdn.com/dms/image/v2/D4E22AQGMfFaBdJuWkg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733418873234?e=1743638400&v=beta&t=ffwi5meMXD9s2wkdBg9vQNk_6OFkrU1pjEzRns3EwLA"
               link="https://github.com"
+              darkMode={darkMode}
+            />
+            <ProjectCard
+              title="KrishiDost – AI-Powered Financial Aid & Subsidy Assistance"
+              description="KrishiDost is a voice-enabled platform that helps farmers access government schemes, subsidies, and financial aid with ease. It provides multilingual support, real-time updates, one-click applications, and secure data storage for future eligibility checks. 🚀🌱"
+              image="https://plus.unsplash.com/premium_photo-1682092805057-14abef3fdff7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              link="https://github.com/hrushi1280/KrushiDost-farmer"
+              darkMode={darkMode}
+            />
+            <ProjectCard
+              title="MediCare Hub – Smart Healthcare Management System"
+              description="A role-based healthcare management system with dashboards for patients, doctors, and admins. It features smart appointment scheduling, inventory management, and automated medicine reminders. Enhancing hospital efficiency and patient care seamlessly. 🚑💡"
+              image="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              link="https://hrushi-git-main-hrushikesh-pandarkars-projects.vercel.app"
               darkMode={darkMode}
             />
             <ProjectCard
               title="Upcoming Project"
               description="Exciting projects coming soon! Stay tuned for innovative solutions in AI, automation, and smart technology. 🚀"
-              image="/photo/upcoming copy.svg"
-              link="https://github.com"
+              image="https://res.cloudinary.com/powtoon-dev/image/fetch/w_864,h_486,f_auto,q_auto/https://library.powtoon.co/templates/v5/thumbs/pt740-Upcoming-projects1920x1080_bZaGDDz.jpg"
+              link="https://github.com/hrushi1280"
               darkMode={darkMode}
             />
 
@@ -210,37 +224,37 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <GalleryImage
-              src="/photo/fiest copy.jpeg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYj8cu-kF-IiPl2jdMACCtkZCsRWz4At1_HpWBreC1-cbOqDFeUp_nge0vfyEJKztPWK7HxzVdd_MBD8_NOyLdSu9PczC7nwOJuKgNYzEAn1ff56_b_pFVwJ6DqlNklLS9gyEoB7TZtLH3n_LDDRyOLtKdSN6iYL9Rg6AAoidURuzw3bF7H8Nw9scc2TSO/s3484/WhatsApp%20Image%202024-08-04%20at%203.16.33%20PM.jpeg"
               alt="Photography work"
               darkMode={darkMode}
               onClick={openImage}
             />
             <GalleryImage
-              src="/photo/second copy.jpeg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJvPTTMUEERR3IF5AfAB_540yjVKGM54S0wKF2qJShtE5VDoQ8R3Ttir5fxki7v2i2I2CxPCT0YfduW2SXkH8k7SVVvuIgKTRy9MspvWcHZetEN1y0IHPtary2vZOPVFRnQm3I068S-FhRcwAFMMERJ45i9p8A6eiP4BFVaYbAQB6nFeoOUyJ6Y2C78fl1/s4000/WhatsApp%20Image%202024-08-03%20at%2011.07.14%20PM%20(1).jpeg"
               alt="Design work"
               darkMode={darkMode}
               onClick={openImage}
             />
             <GalleryImage
-              src="/photo/third copy.jpeg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYoNCURVdi1GJahmh6SAby7Wsu6iQR35CvQM9knRjJ41g0IsFVYgqV3ptVQw4WzlhvSgNqEiNHvaiU7m6y8xczwWMPNpZrNa0Uk9n7yTnMk7xp9SAiatrOsKfWAUiOnr944-HBNRN2uotgPZ_pFd7ySlDRCR2MPCv4molXRN5hyLIyijDjwwTieCSJKfKW/s3548/WhatsApp%20Image%202025-02-21%20at%2018.10.26.jpeg"
               alt="Third image"
               darkMode={darkMode}
               onClick={openImage}
             />
             <GalleryImage
-              src="/photo/fourth copy.jpeg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOsBkb_o9DkqsGQaB5Uuy2Y5UpQauvzySYCCo4V-dV5gtipre1GTaP-0igh6CP2v0LSil7myGDZ7FpPO3JowD3x5ySDIwEaqpmmfor9FtoXjnFtqgjImqGCDPyD7zdB1hircHOolYaXa4BUndK3OG_tdXq49RvyCfHhiMyFIMui-UxWwVMxOlgIQOyACD0/s4096/WhatsApp%20Image%202025-02-21%20at%2018.10.17.jpeg"
               alt="Art work"
               darkMode={darkMode}
               onClick={openImage}
             />
             <GalleryImage
-              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1600"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcLdWeBY5H1IHNTtFOrrBfgjPGLcMplU1GK4aEmMMeqEOaJ3bxTQ01y-BQB2rXMYhaLNMVsj04UkLUaCYgiu_kJUhBotHs3iqOjNi16KQuCq2PTnmAsyAXjWHSJskTHwtRmVS1Zxr5D-nM7Mwg-avh7R5QJLjrCFx4A7g2bvkk9aIak9xPBg2SgVgZLt0Z/s3280/WhatsApp%20Image%202024-08-03%20at%209.17.22%20AM.jpeg"
               alt="Art work"
               darkMode={darkMode}
               onClick={openImage}
             />
             <GalleryImage
-              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1600"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS3Y3ChwV1qPxz_bAiIZgT7EnqXe65mC0vL3nHVcQOvIXohQkw_cs0PfalEilYFD_lGtCZ5eVRbY0Q1is0WF7DQiilPwbZ-85fjqm6GTJzNBW-MG3_q7Ki4TAmRuWEybGaxzKqDHs9vHNvArJA86JfpYMIObsGcDcb9JwCDqu0lMCHxfgpZj4ELNPWabed/s2269/WhatsApp%20Image%202025-03-03%20at%2021.09.40.jpeg"
               alt="Art work"
               darkMode={darkMode}
               onClick={openImage}
